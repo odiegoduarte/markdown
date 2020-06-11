@@ -1,11 +1,8 @@
 <br>
-
 <h1 align="center">Markdown Syntax</h1>
-
 <br>
 
-Tamanho dos Cabeçalhos.
-
+### Tamanho dos Cabeçalhos.
 ```ruby
  Markdown | HTML
 ------------------------------------
@@ -16,42 +13,45 @@ Tamanho dos Cabeçalhos.
 ##### H5  | <h5>Heading level 5</h5>
 ###### H6 | <h6>Heading level 6</h6>
 ------------------------------------
-
 ```
+<br>
 
-Texto centralizado
+### Texto centralizado
 ```ruby
 <h1 align="center">Lorem ipsum</h1>
 ```
+<br>
 
-Imagem centralizada
+### Imagem centralizada
 ```ruby
 <p align="center">
   <img width="922" height="455" src="https://raw.githubusercontent.com/odiegoduarte/lmm/master/images/multimidia.png">
 </p>
-
 ```
+<br>
 
-Link
+### Link
 ```ruby
 [GitHub](http://github.com)
 ```
+<br>
 
-Parágrafos
+### Parágrafos
 ```ruby
 <p>Lorem ipsum.</p>
 ```
+<br>
 
-Tabela
+### Tabela
 ```ruby
  Cabeçalho 1 | Cabeçalho 2
 ------------ | -------------
 Texto 1 | Texto 2
 Texto 1 | Texto 2
 ```
+<br>
 
-
-Espaçamento
+### Espaçamento
 ```ruby
 <br>
 ```
