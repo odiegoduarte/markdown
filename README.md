@@ -1,8 +1,9 @@
+
 <br>
 
 <h1 align="center">Markdown Syntax</h1>
 
-<br>
+<br><br>
 
 ### Tamanho dos Cabeçalhos.
 ```ruby
@@ -21,6 +22,26 @@
 ### Texto centralizado
 ```ruby
 <h1 align="center">Lorem ipsum</h1>
+
+<h2 align="center">Lorem ipsum</h2>
+
+<h3 align="center">Lorem ipsum</h3>
+```
+### Texto a direita
+```ruby
+<h1 align="right">Lorem ipsum</h1>
+
+<h2 align="right">Lorem ipsum</h2>
+
+<h3 align="right">Lorem ipsum</h3>
+```
+### Texto a esquerda
+```ruby
+<h1 align="left">Lorem ipsum</h1>
+
+<h2 align="left">Lorem ipsum</h2>
+
+<h3 align="left">Lorem ipsum</h3>
 ```
 <br>
 
@@ -38,17 +59,51 @@
 ```
 <br>
 
+### Imagem
+```ruby
+
+<img src="https://url_da_imagem" title="Imagem">
+          |-------------------|         |-----|  
+                     |                     |
+                     |                     |--- Título da imagem
+                     |--- URL da imagem
+```
+```ruby
+
+<img width="922" height="455" src="https://url_da_imagem">
+     |---------------------|       |--------------------|
+                |                             |
+                |                             |--- URL da imagem
+                |
+                |--- Tamanho da imagem "width" largura e "height" altura.
+```
+
+
+
 ### Imagem centralizada
 ```ruby
 <p align="center">
-  <img width="922" height="455" src="https://raw.githubusercontent.com/odiegoduarte/lmm/master/images/multimidia.png">
+  <img width="922" height="455" src="https://url_da_imagem">
+</p>
+```
+
+### Imagem a direita
+```ruby
+<p align="right">
+  <img width="410" height="300" src="https://url_da_imagem">
+</p>
+```
+### Imagem a esquerda
+```ruby
+<p align="left">
+  <img width="410" height="300" src="https://url_da_imagem">
 </p>
 ```
 <br>
 
 ### Link
 ```ruby
-[GitHub](http://github.com)
+[GitHub](https://github.com)
 ```
 <br>
 
@@ -80,6 +135,15 @@ Texto 1 | Texto 2
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+```
+<br>
+
+### Listas com URL
+```ruby
+#### Nome da Lista
+* [Nome](https://odiegoduarte.github.io)
+* [Nome](https://odiegoduarte.github.io)
+* [Nome](https://odiegoduarte.github.io)
 ```
 <br>
 
@@ -124,5 +188,5 @@ Lorem ipsum. [`code`](#code).
 ```ruby
 <br>
 ```
-<br>
+<br><br>
 
