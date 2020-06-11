@@ -22,6 +22,20 @@
 ```
 <br>
 
+### Citações
+```ruby
+> Lorem ipsum
+```
+<br>
+
+### Citações com vários parágrafos
+```ruby
+> Lorem ipsum
+>
+> Consectetur adipiscing elit.
+```
+<br>
+
 ### Imagem centralizada
 ```ruby
 <p align="center">
@@ -42,6 +56,13 @@
 ```
 <br>
 
+### Quebra de linha HTML
+```ruby
+<p>Lorem ipsum.<br>
+Consectetur adipiscing elit.</p>
+```
+<br>
+
 ### Tabela
 ```ruby
  Cabeçalho 1 | Cabeçalho 2
@@ -50,6 +71,34 @@ Texto 1 | Texto 2
 Texto 1 | Texto 2
 ```
 <br>
+
+### Listas de tarefas
+```ruby
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+```
+<br>
+
+### Listas
+```ruby
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+```
+<br>
+
+### Ênfase
+```ruby
+                Markdown         |         HTML
+----------------------------------------------------------------------------------------
+*texto em itálico*               | <em>texto em itálico</em>
+**texto em negrito**             | <strong>texto em negrito</strong>.
+***texto em negrito e itálico*** | <strong><em>texto em negrito e itálico</em></strong>
+----------------------------------------------------------------------------------------
+```
 
 ### Espaçamento
 ```ruby
