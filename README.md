@@ -1,5 +1,7 @@
 <br>
+
 <h1 align="center">Markdown Syntax</h1>
+
 <br>
 
 ### Tamanho dos Cabeçalhos.
@@ -99,8 +101,28 @@ Texto 1 | Texto 2
 ***texto em negrito e itálico*** | <strong><em>texto em negrito e itálico</em></strong>
 ----------------------------------------------------------------------------------------
 ```
+<br>
+
+### Formatação de links
+```ruby
+Lorem ipsum. **[NomeSite](https://odiegoduarte.github.io)**.
+
+Lorem ipsum. *[NomeSite](https://odiegoduarte.github.io)*.
+
+Lorem ipsum. [`code`](#code).
+```
+<br>
+
+### URLs e email
+```ruby
+<https://odiegoduarte.github.io>
+<email@example.com>
+```
+<br>
 
 ### Espaçamento
 ```ruby
 <br>
 ```
+<br>
+
