@@ -99,6 +99,13 @@
   <img width="410" height="300" src="https://url_da_imagem">
 </p>
 ```
+### Imagem pequena lado a lado centralizada
+```html
+<p align="center">
+  <img src="LINK_DA_IMAGEM" width="350" title="TEXTO">
+  <img src="LINK_DA_IMAGEM" width="350" alt="TEXTO">
+</p>
+```
 <br>
 
 ### Link
