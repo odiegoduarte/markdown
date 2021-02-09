@@ -155,6 +155,24 @@ Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3
 Texto 1 | Texto 2 | Texto 3
 Texto 1 | Texto 2 | Texto 3
 ```
+### Tabela lado a lado
+```
+<table>
+<tr><th> TABELA 01 </th><th> TABELA 02 </th></tr>
+<tr><td>
+
+|LISTA 01 | LISTA 01  | LISTA 01 |
+|--|--|--|
+|Nome 01 | 01 | 01 |
+
+</td><td>
+  
+|LISTA 02 | LISTA 02  | LISTA 02 |
+|--|--|--|
+|Nome 02 | 02 | 02 |
+
+</td></tr> </table>
+```
 <br>
 
 ### Listas de tarefas
