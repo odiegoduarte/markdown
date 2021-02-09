@@ -134,21 +134,21 @@ Consectetur adipiscing elit.</p>
 Texto 1 | Texto 2
 Texto 1 | Texto 2
 ```
-### Tabela centralizada
+### Tabela texto centralizado
 ```
 Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3
 :------: | :------: | :------:
 Texto 1 | Texto 2 | Texto 3
 Texto 1 | Texto 2 | Texto 3
 ```
-### Tabela a direita
+### Tabela texto a direita
 ```
 Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3
 ------: | ------: | ------:
 Texto 1 | Texto 2 | Texto 3
 Texto 1 | Texto 2 | Texto 3
 ```
-### Tabela a esquerda
+### Tabela texto a esquerda
 ```
 Cabeçalho 1 | Cabeçalho 2 | Cabeçalho 3
 :------ | :------ | :------
@@ -172,6 +172,42 @@ Texto 1 | Texto 2 | Texto 3
 |Nome 02 | 02 | 02 |
 
 </td></tr> </table>
+```
+### Tabela ao centro < HTML >
+```
+<table>
+  <tbody>
+    <tr>
+      <td align="center"> Coluna 01 <br>
+        <span> Texto coluna 01 </span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>    
+        <span>&nbsp;&nbsp;</span>
+      </td>
+      <td align="center"> Coluna 03 <br>
+        <span> Texto coluna 01 </span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>    
+        <span>&nbsp;&nbsp;</span>
+      </td>
+      <td align="center"> Coluna 03 <br>
+        <span> Texto coluna 03 </span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>    
+        <span>&nbsp;&nbsp;</span>      
+      </td>
+    </tr>
+  </tbody>
+</table>
 ```
 <br>
 
