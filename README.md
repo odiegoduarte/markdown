@@ -27,6 +27,10 @@
 
 <h3 align="center">Lorem ipsum</h3>
 ```
+### Texto centralizado HTML com link
+```html
+<h1 align="center" a href="url">Lorem ipsum</a>
+```
 ### Texto a direita
 ```html
 <h1 align="right">Lorem ipsum</h1>
@@ -126,6 +130,8 @@
 Consectetur adipiscing elit.</p>
 ```
 <br>
+
+
 
 ### Tabela
 ```
