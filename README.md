@@ -29,7 +29,7 @@
 ```
 ### Texto centralizado HTML com link
 ```html
-<h1 align="center" a href="url">Lorem ipsum</a>
+<h1 align="center"><a href="url">Lorem ipsum</a></h1>
 ```
 ### Texto a direita
 ```html
